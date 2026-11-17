@@ -1,0 +1,14 @@
+{
+  "_comment": "ASI07 / deterministic - MCP endpoint over plaintext HTTP. Compact reproduction of testbenches/tier1-core/dvaa scenarios/prompt-to-lateral-movement/vulnerable/mcp.json:8 (ASINT-ASI07-010, signature layer, 0.90). Keys are fake fixture values.",
+  "mcpServers": {
+    "local-tools": {
+      "url": "http://localhost:3080",
+      "description": "Primary tool server"
+    },
+    "database-server": {
+      "url": "http://10.0.1.50:3081",
+      "description": "Database query tools",
+      "apiKey": "FAKE-db-server-key-abc123def456"
+    }
+  }
+}
